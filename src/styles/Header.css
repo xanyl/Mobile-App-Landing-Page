@@ -1,0 +1,38 @@
+.main-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: transparent;
+   
+    font-size: 20px;
+}
+
+.topnav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 3rem;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 48px;
+    color: aliceblue;
+    
+}
+
+.btn-two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.btn-two>.btn-1 {
+    background-color: transparent;
+    color: white;
+    font-weight: initial;
+}

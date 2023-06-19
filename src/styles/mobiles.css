@@ -1,0 +1,23 @@
+.mobile-main{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    outline: 1px solid red;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+    transform: translate(0%, -25%);
+    
+}
+.mobile-main > .mobile1, .mobile3{
+    border-radius: 10px;
+    height: 512px;
+    width: 264px;
+    background-color: rgb(191, 191, 191);
+}
+.mobile2{
+    border-radius: 10px;
+    height: 564px;
+    width: 290px;
+    background-color: rgb(191, 191, 191);
+}
