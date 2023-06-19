@@ -1,0 +1,28 @@
+
+.main-about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: -100px;
+}
+.card-store{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+}
+
+.google-play > img{
+    height: 68px
+}
+.apple-store > img{
+    height: 84px
+}
+
+.about-title{
+    font-size: 64px;
+    color: black;
+    align-self: center;
+    font-weight: 800;
+    margin-top: 48px;
+}
