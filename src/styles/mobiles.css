@@ -9,7 +9,7 @@
     transform: translate(0%, -25%);
     
 }
-/* .mobile-main > .mobile1, .mobile3{
+.mobile-main > .mobile1, .mobile3{
     border-radius: 10px;
     height: 512px;
     width: 264px;
@@ -20,4 +20,4 @@
     height: 564px;
     width: 290px;
     background-color: rgb(191, 191, 191);
-} */
+}

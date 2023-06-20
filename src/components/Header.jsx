@@ -1,4 +1,5 @@
 import "../styles/Header.css";
+import Button from "./Button";
 function Header() {
   return (
     <div className="main-nav">
@@ -12,8 +13,21 @@ function Header() {
       </div>
       <div className="logo"> smartHome</div>
       <div className="btn-two">
-        <button className="btn-1">Login</button>
-        <button>SignUp</button>
+        {/* <button className="btn-1">Login</button>
+        <button>SignUp</button> */}
+        <Button
+          padding={"10"}
+          backgroundColor={"transparent"}
+          color={"white"}
+          text={"Login"}
+        />
+        <Button
+          padding={"10"}
+          background={"black"}
+          color={"black"}
+          text={"SignUp"}
+          width={96}
+        />
       </div>
     </div>
   );

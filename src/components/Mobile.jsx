@@ -1,5 +1,5 @@
 import "../styles/mobiles.css";
-import PropTypes from 'prop-types';
+import PropTypes from "prop-types";
 
 // const Mobile({height, width}) {
 //   return (
@@ -22,14 +22,16 @@ import PropTypes from 'prop-types';
 
 // export default Mobile
 
-
-
-
 const Mobile = ({ className, height, width, background, borderRadius }) => {
   return (
     <div
       className={className}
-      style={{ height: `${height}px`, width: `${width}px`, background, borderRadius: `${borderRadius}px`}}
+      style={{
+        height: `${height}px`,
+        width: `${width}px`,
+        background,
+        borderRadius: `${borderRadius}px`,
+      }}
     >
       Iphone 14 Pro Max
     </div>
@@ -45,4 +47,3 @@ Mobile.propTypes = {
 };
 
 export default Mobile;
-
