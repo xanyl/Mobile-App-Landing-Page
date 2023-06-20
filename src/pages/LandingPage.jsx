@@ -3,6 +3,7 @@ import Header from '../components/Header'
 import HeroSection from '../components/HeroSection'
 import Mobiles from '../components/mobiles'
 import About from '../components/About'
+import Testimonial from '../components/Testimonials/Testimonial'
 
 function LandingPage() {
   return (
@@ -11,6 +12,7 @@ function LandingPage() {
       <HeroSection />
       <Mobiles />
       <About />
+      <Testimonial />
     </div>
   )
 }

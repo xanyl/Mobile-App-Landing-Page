@@ -9,18 +9,67 @@ export const data = {
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis nam libero placeat quae minus quisquam quis quam cupiditate dolorum blanditiis, cum iste doloribus. Eum magni, id quasi nemo itaque debitis?",
     },
     {
-      heading: "Hello",
+      heading: "What app can do to your appliances ?",
       details:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis nam libero placeat quae minus quisquam quis quam cupiditate dolorum blanditiis, cum iste doloribus",
     },
     {
-      heading: "Hello world",
+      heading: "Control Electric Appliances",
       details:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis nam libero placeat quae minus quisquam quis quam cupiditate dolorum blanditiis, cum iste doloribus",
     },
   ],
-  ShowCase:[{
-      title:'Our Clients',
-      details : 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis nam libero placeat quae minus quisquam quis quam cupiditate dolorum blanditiis, cum iste doloribus. Eum magni, id quasi nemo itaque debitis?'
-  }]
+  ShowCase: [
+    {
+      title: "Our Clients",
+      details:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis nam libero placeat quae minus quisquam quis quam cupiditate dolorum blanditiis, cum iste doloribus. Eum magni, id quasi nemo itaque debitis?",
+    },
+    {
+      title: "Our Clients",
+      details:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis nam libero placeat quae minus quisquam quis quam cupiditate dolorum blanditiis, cum iste doloribus. Eum magni, id quasi nemo itaque debitis?",
+    },
+  ],
+  Testimonials: [
+    {
+      title: "Testimonials",
+      details:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis nam libero placeat quae minus quisquam quis quam cupiditate dolorum blanditiis, cum iste doloribus. Eum magni, id quasi nemo itaque debitis?",
+    },
+  ],
+  Review: [
+    {
+      profilePicture:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTs1xtUSpVecnmpeUWrInONrPL7SUinC1xCJQ&usqp=CAU",
+      name: "John Doe",
+      role: "Developer",
+      details:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis nam libero placeat quae minus quisquam quis quam cupiditate dolorum blanditiis, cum iste doloribus. Eum magni, id quasi nemo itaque debitis?",
+    },
+    {
+      profilePicture:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTs1xtUSpVecnmpeUWrInONrPL7SUinC1xCJQ&usqp=CAU",
+      name: "Jane Smith",
+      role: "Designer",
+      details:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis nam libero placeat quae minus quisquam quis quam cupiditate dolorum blanditiis, cum iste doloribus. Eum magni, id quasi nemo itaque debitis?",
+    },
+    {
+      profilePicture:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTs1xtUSpVecnmpeUWrInONrPL7SUinC1xCJQ&usqp=CAU",
+      name: "John Doe",
+      role: "Developer",
+      details:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis nam libero placeat quae minus quisquam quis quam cupiditate dolorum blanditiis, cum iste doloribus. Eum magni, id quasi nemo itaque debitis?",
+    },
+    {
+      profilePicture:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTs1xtUSpVecnmpeUWrInONrPL7SUinC1xCJQ&usqp=CAU",
+      name: "Jane Smith",
+      role: "Designer",
+      details:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis nam libero placeat quae minus quisquam quis quam cupiditate dolorum blanditiis, cum iste doloribus. Eum magni, id quasi nemo itaque debitis?",
+    },
+  ],
 };

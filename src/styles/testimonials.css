@@ -1,0 +1,16 @@
+.test-main{
+    display:  flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 72px;
+}
+.test-heading{
+    font-size: 64px;
+    align-self: center;
+}
+.test-details{
+    align-self: center;
+    width: 75%;
+    text-align: center;
+    
+}

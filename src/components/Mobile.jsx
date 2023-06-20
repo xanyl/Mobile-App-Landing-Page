@@ -33,7 +33,7 @@ const Mobile = ({ className, height, width, background, borderRadius }) => {
         borderRadius: `${borderRadius}px`,
       }}
     >
-      Iphone 14 Pro Max
+      
     </div>
   );
 };
