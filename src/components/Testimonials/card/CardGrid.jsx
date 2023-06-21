@@ -1,7 +1,6 @@
 import {data} from "../../../data/data";
 import Cards from "./cards";
-import "../../../styles/CardGrid.css";
-
+import "./cardgrids.css"
 const CardGrid = () => {
   const Test = data.Review;
   return (
@@ -16,7 +15,7 @@ const CardGrid = () => {
           details={card.details}
         />
       ))}
-    </div>
+    </div> 
   );
 };
 

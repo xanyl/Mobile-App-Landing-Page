@@ -1,5 +1,5 @@
 import PropTypes from "prop-types";
-const Button = ({ onClick, backgroundColor, color, text, width }) => {
+const Button = ({ onClick, backgroundColor, color, text, width,border }) => {
   return (
     <button
       onClick={onClick}
@@ -7,7 +7,7 @@ const Button = ({ onClick, backgroundColor, color, text, width }) => {
         padding: `15px`,
         backgroundColor: `${backgroundColor}`,
         color: `${color}`,
-        border: `none`,
+        border: `${border}`,
         borderRadius: "5px",
         cursor: "pointer",
         width: `${width}px`,
@@ -24,6 +24,7 @@ Button.propTypes = {
   backgroundColor: PropTypes.string,
   color: PropTypes.string,
   width: PropTypes.string,
+  border: PropTypes.string,
 };
 
 export default Button;

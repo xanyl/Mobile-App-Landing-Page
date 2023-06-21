@@ -1,4 +1,4 @@
-import '../../../styles/CardGrid.css'
+import '../card/cardgrids.css'
 import PropTypes from "prop-types";
 
 const Cards = ({ profilePicture, name, role, details }) => {

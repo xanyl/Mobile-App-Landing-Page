@@ -1,4 +1,4 @@
-import "../styles/mobiles.css";
+
 import PropTypes from "prop-types";
 
 // const Mobile({height, width}) {

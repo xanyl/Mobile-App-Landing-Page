@@ -1,5 +1,5 @@
-import "../styles/Header.css";
-import Button from "./Button";
+import "./Header.css";
+import Button from "../Button/Button";
 function Header() {
   return (
     <div className="main-nav">
@@ -17,6 +17,7 @@ function Header() {
         <button>SignUp</button> */}
         <Button
           padding={"10"}
+          border ={'none'}
           backgroundColor={"transparent"}
           color={"white"}
           text={"Login"}
@@ -25,6 +26,7 @@ function Header() {
           padding={"10"}
           background={"black"}
           color={"black"}
+          border ={'none'}
           text={"SignUp"}
           width={96}
         />

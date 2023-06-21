@@ -1,6 +1,6 @@
-import "../styles/About.css";
-import google from "../assets/img/google.png";
-import apple from "../assets/img/apple.png";
+import "../Mobile/Mobile"
+import google from "../../../assets/img/google.png";
+import apple from "../../../assets/img/apple.png";
 
 export default function Card() {
   return (

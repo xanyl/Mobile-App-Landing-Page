@@ -1,9 +1,9 @@
-import "../styles/HeroSection.css";
-import fb from "../assets/icons/facebook.png";
-import insta from "../assets/icons/instagram.png";
-import twitter from "../assets/icons/twitter.png";
-import linkedin from "../assets/icons/linkedin.png";
-import { data } from "../data/data";
+import "./HeroSection.css";
+import fb from "../../assets/icons/facebook.png";
+import insta from "../../assets/icons/instagram.png";
+import twitter from "../../assets/icons/twitter.png";
+import linkedin from "../../assets/icons/linkedin.png";
+import { data } from "../../data/data";
 function HeroSection() {
   return (
     <div className="hero-main">

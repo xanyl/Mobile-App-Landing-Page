@@ -1,10 +1,9 @@
-import "../styles/About.css";
-
-import Mobile from "./Mobile";
-import "../data/data";
-import { data } from "../data/data";
-import Button from "./Button";
-import Card from "./card";
+import './about.css'
+import Mobile from "./Mobile/Mobile";
+import "../../data/data"
+import { data } from "../../data/data";
+import Button from "../Button/Button";
+import Card from "./Card/Card";
 function About() {
   const about = data.about;
   return (

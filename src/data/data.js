@@ -43,7 +43,7 @@ export const data = {
       profilePicture:
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTs1xtUSpVecnmpeUWrInONrPL7SUinC1xCJQ&usqp=CAU",
       name: "John Doe",
-      role: "Developer",
+      role: "Product designer - Besnik",
       details:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis nam libero placeat quae minus quisquam quis quam cupiditate dolorum blanditiis, cum iste doloribus. Eum magni, id quasi nemo itaque debitis?",
     },
@@ -51,7 +51,7 @@ export const data = {
       profilePicture:
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTs1xtUSpVecnmpeUWrInONrPL7SUinC1xCJQ&usqp=CAU",
       name: "Jane Smith",
-      role: "Designer",
+      role: "Custom IT Solutions Firm",
       details:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis nam libero placeat quae minus quisquam quis quam cupiditate dolorum blanditiis, cum iste doloribus. Eum magni, id quasi nemo itaque debitis?",
     },
@@ -59,7 +59,7 @@ export const data = {
       profilePicture:
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTs1xtUSpVecnmpeUWrInONrPL7SUinC1xCJQ&usqp=CAU",
       name: "John Doe",
-      role: "Developer",
+      role: "Writer",
       details:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis nam libero placeat quae minus quisquam quis quam cupiditate dolorum blanditiis, cum iste doloribus. Eum magni, id quasi nemo itaque debitis?",
     },
@@ -67,9 +67,61 @@ export const data = {
       profilePicture:
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTs1xtUSpVecnmpeUWrInONrPL7SUinC1xCJQ&usqp=CAU",
       name: "Jane Smith",
-      role: "Designer",
+      role: "Engineering Firm",
       details:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis nam libero placeat quae minus quisquam quis quam cupiditate dolorum blanditiis, cum iste doloribus. Eum magni, id quasi nemo itaque debitis?",
+    },
+  ],
+  accordionData: [
+    {
+      question: "Chamber reached do he nothing?",
+      answer:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis nam libero placeat quae minus quisquam quis quam cupiditate dolorum blanditiis, cum iste doloribus. Eum magni, id quasi nemo itaque debitis?",
+    },
+    {
+      question: "Stuff sight equal of my woody?",
+      answer:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis nam libero placeat quae minus quisquam quis quam cupiditate dolorum blanditiis, cum iste doloribus. Eum magni, id quasi nemo itaque debitis?",
+    },
+    {
+      question: "At by pleasure of children be?",
+      answer:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis nam libero placeat quae minus quisquam quis quam cupiditate dolorum blanditiis, cum iste doloribus. Eum magni, id quasi nemo itaque debitis?",
+    },
+    {
+      question: "Amounted repeated as believed in confined?",
+      answer:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis nam libero placeat quae minus quisquam quis quam cupiditate dolorum blanditiis, cum iste doloribus. Eum magni, id quasi nemo itaque debitis?",
+    },
+
+    {
+      question: "In am do giving to afford parish settle easily garret?",
+      answer:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis nam libero placeat quae minus quisquam quis quam cupiditate dolorum blanditiis, cum iste doloribus. Eum magni, id quasi nemo itaque debitis?",
+    },
+  ],
+
+  Footer: [
+    {
+      title: "smartHome",
+      text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus a dolores enim ipsa laudantium rerum.",
+      categories: [
+        "Product Management",
+        "Design / Creatives",
+        "Education & Training",
+        "UI/UX Designers",
+        "Development",
+        "Customer Support",
+      ],
+      about: [
+        "About Us",
+        "Partnerships",
+        "Finance Experts",
+        "Project Management",
+        "Product Manager",
+        "The Team",
+      ],
+      follow: ["Facebook", "Twitter", "Instagram", "Linkedin"],
     },
   ],
 };

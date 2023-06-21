@@ -1,0 +1,6 @@
+.l-main-content{
+    display: flex;
+    flex-direction: column;
+    background-color: blue;
+    height: 676px;
+}

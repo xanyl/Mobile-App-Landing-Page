@@ -1,5 +1,5 @@
 import {data} from "../../data/data";
-import '../../styles/testimonials.css'
+import './testimonials.css'
 import CardGrid from "./card/CardGrid";
 export default function Testimonial() {
   
@@ -12,3 +12,4 @@ export default function Testimonial() {
     </div>
   );
 }
+ 
