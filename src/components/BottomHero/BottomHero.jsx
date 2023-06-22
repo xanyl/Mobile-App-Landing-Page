@@ -24,9 +24,9 @@ export default function BottomHero() {
         <div className="bottom-col-2">
           <Mobile
             className={"mobile1"}
-            height={"564"}
-            width={"290"}
-            borderRadius={"10"}
+            height={564}
+            width={290}
+            borderRadius={10}
             background={"rgb(191, 191, 191)"}
           />
         </div>
@@ -39,7 +39,7 @@ export default function BottomHero() {
             consectetur. Mollitia sit in earum laudantium quo! Fugiat esse
             nobis, voluptatum ab optio consequatur quia, blanditiis quaerat
             explicabo alias quis dolores.
-          </div>
+          </div>     
         </div>
         <div className="subs-col2">
           <Button
