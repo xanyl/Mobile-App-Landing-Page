@@ -1,8 +1,13 @@
-import '../styles/LandingPage.css'
-import Header from '../components/Header'
-import HeroSection from '../components/HeroSection'
-import Mobiles from '../components/mobiles'
-import About from '../components/About'
+import About from "../components/About/About";
+import Mobiles from "../components/About/Mobile/mobiles";
+import Header from "../components/Header/Header";
+import HeroSection from "../components/Hero/HeroSection";
+import Facts from "../components/FAQ/Facts";
+import "./LandingPage.css";
+import "../components/Testimonials/Testimonial";
+import Testimonial from "../components/Testimonials/Testimonial";
+import BottomHero from "../components/BottomHero/BottomHero";
+import Footer from "../components/Footer/Footer";
 
 function LandingPage() {
   return (
@@ -11,8 +16,12 @@ function LandingPage() {
       <HeroSection />
       <Mobiles />
       <About />
+      <Testimonial />
+      <Facts />
+      <BottomHero />
+      <Footer />
     </div>
-  )
+  );
 }
 
-export default LandingPage
+export default LandingPage;

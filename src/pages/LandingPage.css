@@ -1,0 +1,11 @@
+.l-main-content{
+    display: flex;
+    flex-direction: column;
+    background-color: blue;
+    height: 676px;
+}
+@media (max-width: 768px) {
+    .l-main-content{
+        height: 524px;
+    }
+  }
