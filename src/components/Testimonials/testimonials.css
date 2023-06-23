@@ -1,0 +1,34 @@
+.test-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 64px;
+}
+
+.test-heading {
+    font-size: 64px;
+    align-self: center;
+}
+
+.test-details {
+    align-self: center;
+    width: 75%;
+    text-align: center;
+    font-size: 16px;
+
+}
+
+@media (max-width: 768px) {
+
+    .test-heading {
+        font-size: 36px;
+        align-self: center;
+        height: 24px;
+    }
+    .test-details {
+        
+        font-size: 14px;
+    
+    }
+
+}
