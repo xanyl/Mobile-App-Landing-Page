@@ -1,5 +1,5 @@
-import "../Mobile/Mobile"
-import './cards.css'
+import "../Mobile/Mobile";
+
 import google from "../../../assets/img/google.png";
 import apple from "../../../assets/img/apple.png";
 
