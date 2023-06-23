@@ -22,37 +22,65 @@ const Footer = () => {
                 backgroundColor={"transparent"}
                 color={"black"}
                 text={"Register"}
-                
               />
             </div>
           </div>
         </div>
-        <div className="col-categories">
-          <ul>
-            {footerData.categories.map((category, index) => (
-              <li className={`cat-row${index + 1}`} key={index}>
-                <a href="">{category}</a>
-              </li>
-            ))}
-          </ul>
-        </div>
-        <div className="col-about">
-          <ul>
-            {footerData.about.map((item, index) => (
-              <li className={`about-row${index + 1}`} key={index}>
-                <a href="">{item}</a>
-              </li>
-            ))}
-          </ul>
-        </div>
-        <div className="col-follow">
-          <ul>
-            {footerData.follow.map((item, index) => (
-              <li className={`follow-row${index + 1}`} key={index}>
-                <a href="">{item}</a>
-              </li>
-            ))}
-          </ul>
+        <div className="nav-row">
+          <div className="col-categories">
+            <ul>
+              <h4
+                style={{
+                  fontWeight: "600",
+                  color: "gray",
+                  position: "center",
+                }}
+              >
+                Categories
+              </h4>
+              {footerData.categories.map((category, index) => (
+                <li className={`cat-row${index + 1}`} key={index}>
+                  <a href="">{category}</a>
+                </li>
+              ))}
+            </ul>
+          </div>
+          <div className="col-about">
+            <ul>
+            <h4
+                style={{
+                  fontWeight: "600",
+                  color: "gray",
+                  position: "center",
+                }}
+              >
+                About
+              </h4>
+              {footerData.about.map((item, index) => (
+                <li className={`about-row${index + 1}`} key={index}>
+                  <a href="">{item}</a>
+                </li>
+              ))}
+            </ul>
+          </div>
+          <div className="col-follow">
+            <ul>
+            <h4
+                style={{
+                  fontWeight: "600",
+                  color: "gray",
+                  position: "center",
+                }}
+              >
+                Follow Us
+              </h4>
+              {footerData.follow.map((item, index) => (
+                <li className={`follow-row${index + 1}`} key={index}>
+                  <a href="">{item}</a>
+                </li>
+              ))}
+            </ul>
+          </div>
         </div>
       </div>
       <div className="black-footer">

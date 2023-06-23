@@ -4,12 +4,26 @@
     align-items: center;
     justify-content: center;
     gap: 48px;
-    
+
 }
 
 .facts-heading {
     display: flex;
     font-size: 4rem;
     font-weight: 900;
+
+}
+
+@media (max-width: 768px) {
+
+    .facts-main {
+        gap: 24px;
+        
+    }
+
+    .facts-heading {
+        font-size: 2rem;
+
+    }
 
 }

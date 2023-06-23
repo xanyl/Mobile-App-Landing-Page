@@ -1,8 +1,5 @@
 import "./HeroSection.css";
-import fb from "../../assets/icons/facebook.png";
-import insta from "../../assets/icons/instagram.png";
-import twitter from "../../assets/icons/twitter.png";
-import linkedin from "../../assets/icons/linkedin.png";
+
 import { data } from "../../data/data";
 function HeroSection() {
   return (
@@ -11,19 +8,30 @@ function HeroSection() {
       <div className="hero-details">{data.details}</div>
       <div className="social-icons">
         <div>
-          <img src={fb} />
+          <i
+            className="fa-brands fa-facebook"
+            style={{ color: "#c6c7c7", fontSize: "24px" }}
+          ></i>
         </div>
         <div>
-          <img src={insta} />
+          <i
+            className="fa-brands fa-instagram"
+            style={{ color: "#c6c7c7", fontSize: "24px" }}
+          ></i>
         </div>
         <div>
-          <img src={twitter} />
+          <i
+            className="fa-brands fa-twitter"
+            style={{ color: "#c6c7c7", fontSize: "24px" }}
+          ></i>
         </div>
         <div>
-          <img src={linkedin} />
+          <i
+            className="fa-brands fa-linkedin"
+            style={{ color: "#c6c7c7", fontSize: "24px" }}
+          ></i>
         </div>
       </div>
-      
     </div>
   );
 }

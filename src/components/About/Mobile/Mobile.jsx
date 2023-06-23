@@ -22,9 +22,10 @@ import PropTypes from "prop-types";
 
 // export default Mobile
 
-const Mobile = ({ className, height, width, background, borderRadius }) => {
+const Mobile = ({ className, height, width, background, borderRadius,screen}) => {
   return (
-    <div
+    <img
+      src={screen}
       className={className}
       style={{
         height: `${height}px`,
@@ -34,7 +35,7 @@ const Mobile = ({ className, height, width, background, borderRadius }) => {
       }}
     >
       
-    </div>
+    </img>
   );
 };
 
@@ -44,6 +45,7 @@ Mobile.propTypes = {
   width: PropTypes.number.isRequired,
   background: PropTypes.string,
   borderRadius: PropTypes.number,
+  screen: PropTypes.any
 };
 
 export default Mobile;

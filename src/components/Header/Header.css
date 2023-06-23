@@ -4,7 +4,7 @@
   justify-content: space-around;
   background-color: transparent;
   font-size: 20px;
-  outline: 1px solid red;
+
 }
 
 .topnav {
@@ -46,7 +46,7 @@
   font-size: 24px;
   color: white;
   cursor: pointer;
-  
+
 
 }
 
@@ -82,6 +82,7 @@
   .overlay.open {
     left: 0;
   }
+
   .topnav {
     display: none;
   }

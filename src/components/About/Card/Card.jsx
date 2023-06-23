@@ -1,4 +1,5 @@
 import "../Mobile/Mobile"
+import './cards.css'
 import google from "../../../assets/img/google.png";
 import apple from "../../../assets/img/apple.png";
 

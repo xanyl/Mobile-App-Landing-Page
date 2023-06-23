@@ -4,6 +4,7 @@ import "../../data/data";
 import { data } from "../../data/data";
 import Button from "../Button/Button";
 import Card from "./Card/Card";
+import screen1 from "../../assets/img/screen1.jpg";
 function About() {
   const about = data.about;
   return (
@@ -19,10 +20,11 @@ function About() {
             >
               <div className="about-col1">
                 <Mobile
+                screen={screen1}
                   className={"mobile1"}
                   height={564}
                   width={290}
-                  borderRadius={10}
+                  borderRadius={40}
                   background={"rgb(191, 191, 191)"}
                 />
               </div>

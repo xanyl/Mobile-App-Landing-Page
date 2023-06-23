@@ -20,3 +20,9 @@
     width: 290px;
     background-color: rgb(191, 191, 191);
 }
+
+@media (max-width: 768px) {
+    .mobile-main{
+        display: none;
+    }
+  }

@@ -2,12 +2,14 @@ import Card from "../About/Card/Card";
 import Mobile from "../About/Mobile/Mobile";
 import Button from "../Button/Button";
 import "./BottomHero.css";
+import screen2 from "../../assets/img/screen2.jpg";
 
 export default function BottomHero() {
   return (
     <div className="bottom-main">
       <div className="bottom-hero-main">
         <div className="bottom-col-1">
+          <div className="download-col-bottom">
           <div className="btm-row-1">
             Download <br />
             App
@@ -17,16 +19,18 @@ export default function BottomHero() {
             excepturi. Sapiente veniam laborum eum laboriosam culpa assumenda
             quos, ea ab corporis
           </div>
+          </div>
           <div className="btm-row-3">
             <Card />
           </div>
         </div>
         <div className="bottom-col-2">
           <Mobile
+          screen={screen2}
             className={"mobile1"}
             height={564}
             width={290}
-            borderRadius={10}
+            borderRadius={40}
             background={"rgb(191, 191, 191)"}
           />
         </div>

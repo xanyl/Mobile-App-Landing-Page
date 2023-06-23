@@ -36,3 +36,13 @@
     width: 24px;
 }
 
+@media (max-width: 768px) {
+    .hero-title{
+        font-size: 36px;
+        width: 300px;
+    }
+    .hero-details{
+        font-size: smaller;
+        width: 60%;
+    }
+  }

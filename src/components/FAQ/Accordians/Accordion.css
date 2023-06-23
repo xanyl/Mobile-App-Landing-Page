@@ -1,11 +1,8 @@
-
-
 .accordion {
   display: flex;
   flex-direction: column;
   border-radius: 10px;
- width: 100%;
-  
+  width: 100%;
 }
 
 .accordion-item {
@@ -15,7 +12,6 @@
   justify-content: center;
   align-self: center;
   border-radius: 10px;
-
 }
 
 .accordion-item.expanded {
@@ -28,7 +24,6 @@
 }
 
 .accordion-header {
-
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -42,8 +37,6 @@
   font-weight: bold;
   margin-right: 10px;
 }
-
-
 
 .icon.plus {
   margin-right: 10px;
@@ -60,4 +53,15 @@
 .accordion-content {
   padding: 10px 25px;
   background-color: #fff;
+}
+
+@media (max-width: 768px) {
+  .accordion-item {
+    width: 400px;
+  }
+
+  .accordion-item.expanded {
+    border: 1px solid rgb(224, 222, 222);
+    align-self: center;
+  }
 }

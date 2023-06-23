@@ -17,7 +17,7 @@
 }
 
 .apple-store>img {
-    height: 84px
+    height: 64px
 }
 
 .about-title {
@@ -44,6 +44,7 @@
     margin-bottom: 48px;
 
 }
+
 .about-row-rev {
     display: flex;
     flex-direction: row-reverse;
@@ -54,7 +55,8 @@
 }
 
 .about-col1 {
-    border-radius: 10px;    align-items: center;
+    border-radius: 10px;
+    align-items: center;
     height: 350px;
     width: 500px;
     margin-top: 100px;
@@ -74,6 +76,64 @@
 .about-col2 {
     width: 30%;
 }
-.about-col1 > .mobile1{
-    transform: translate(36% ,-32%);
+
+.about-col1>.mobile1 {
+    transform: translate(36%, -32%);
+}
+
+
+@media (max-width: 768px) {
+    .card-store {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about-title {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .about-title>h2 {
+        font-size: 36px;
+    }
+
+    .about-col2 {
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+        gap: 5px;
+        font-size: 32px;
+        text-align: center;
+    }
+
+    .about-row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 12px;
+    }
+
+    .about-row-rev {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .row2-details {
+        font-family: inherit;
+        text-align: left;
+        font-size: 18px;
+        text-align: center;
+        text-decoration: none;
+        font-weight: 100;
+        color: rgb(95, 96, 95);
+
+    }
+
+    .about-col2>button {
+        align-self: center;
+    }
+
 }
