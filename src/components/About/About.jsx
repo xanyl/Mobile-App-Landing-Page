@@ -11,7 +11,7 @@ function About() {
     <div className="main-about">
       <Card />
       <div className="about-title">
-        <h2>About Us</h2>
+        <h2>About Us</h2> 
         {about.map((d, index) => {
           return (
             <div
